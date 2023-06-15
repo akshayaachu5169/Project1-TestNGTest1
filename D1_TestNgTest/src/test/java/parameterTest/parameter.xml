@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Parameter Test1">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="url" value="vcentryApp"></parameter>
+		<parameter name="username" value="Akshaya"></parameter>
+		<parameter name="password" value="pass@123"></parameter>
+
+
+		<classes>
+			<class name="parameterTest.ParameterTest1" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test thread-count="5" name="Parameter Test2">
+		<parameter name="browser" value="firefox"></parameter>
+		<parameter name="url" value="googleApp"></parameter>
+		<parameter name="username" value="Aswin"></parameter>
+		<parameter name="password" value="pass@456"></parameter>
+
+
+		<classes>
+			<class name="parameterTest.ParameterTest1" />
+		</classes>
+	</test> <!-- Test -->
+	
+	
+	
+	<test thread-count="5" name="Parameter Test3">
+		<parameter name="browser" value="ie"></parameter>
+		<parameter name="url" value="flipkart"></parameter>
+		<parameter name="username" value="Aakash"></parameter>
+		<parameter name="password" value="pass@789"></parameter>
+
+
+		<classes>
+			<class name="parameterTest.ParameterTest1" />
+		</classes>
+	</test> <!-- Test -->
+	
+	
+	
+</suite> <!-- Suite -->
