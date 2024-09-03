@@ -1,2 +1,2 @@
 # Project1-TestNGTest1
-This project contains all the methods used in TestNG 
+Completed a project using the TestNG framework, leveraging annotations, parameters, listeners, assertions, grouping, and keywords to create robust and flexible test scripts.
